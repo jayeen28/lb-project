@@ -1,0 +1,13 @@
+/* common css */
+body{
+    margin:0;
+    font-family:poppins;
+}
+.container{
+    padding: 0% 1%;
+}
+h2.all-section-head {
+    color: #562EFF;
+    font-weight: 500;
+    font-size: 24px;
+}
