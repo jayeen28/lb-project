@@ -2,6 +2,7 @@
 /* header style */
 .website-header{
     background-color:#562EFF;
+    overflow: hidden;
 }
 .nav-bar{
     margin:0px auto;

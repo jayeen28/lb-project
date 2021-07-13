@@ -1,0 +1,64 @@
+/* THIS STYLESHEET IS DEDICATED FOR responsive STYLE*/
+
+/* mobile responsive css */
+@media only screen and (max-width:688px) {
+    .players{
+        grid-template-columns: .5fr .5fr;
+    }
+    .player{
+        column-gap:4px;
+        align-items:center;
+    }
+    .player h3{
+        font-size:14px;
+    }
+    .container{
+        padding:4%;
+    }
+    section{
+        width:100%;
+    }
+    .blogs{
+        grid-template-columns:1fr;
+        gap:20px 5px;
+    }
+    .blog{
+        column-gap:5px;
+    }
+    .blog-thumbnail img{
+        height:100px
+        width:100px;
+    } 
+    .blog-detail header h3, .course h3{
+        font-size:16px;
+        line-height:25px;
+    }
+    .blog-detail p{
+        font-size:14px;
+    }
+    .courses{
+        grid-template-columns:repeat(1,1fr);
+    }
+}
+/* tablet responsive css */
+@media only screen and (min-width:689px) and (max-width:992px){
+    .container{
+       padding:4%;
+    }   
+    section{
+        width:100%
+    }
+    .blog{
+        column-gap:10px;
+    }
+     .blog-detail header h3, .course h3{
+        font-size:16px;
+        line-height:25px;
+    }
+    .blog-detail p{
+        font-size:14px;
+    }
+    .courses{
+        grid-template-columns:repeat(2,1fr);
+    }
+}

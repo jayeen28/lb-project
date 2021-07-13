@@ -9,6 +9,7 @@
 .player {
     display: flex;
     column-gap: 10px;
+    align-items: center;
 }
 
 .player img {
@@ -83,7 +84,6 @@ i.fas.fa-star.s-active {
 .c-time i {
     margin-right: 2px;
 }
-
 .c-time {
     color: #ED6B4F;
     background-color: #ed6b4f1c;
