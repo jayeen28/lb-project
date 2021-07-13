@@ -1,13 +1,73 @@
 /* common css */
 body{
-    margin:0;
     font-family:poppins;
+    margin: 0px;
 }
-.container{
-    padding: 0% 1%;
+section{
+    border-radius: 5px;
+    margin: 30px auto;
+}
+.container {
+    padding: 30px 30px;
 }
 h2.all-section-head {
     color: #562EFF;
     font-weight: 500;
     font-size: 24px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+main {
+    background-color: #F3F1FF;
+    overflow: hidden;
+}
+section.top-contents {
+    width: 870px;
+    background-color: white;
+}
+hr{
+    margin: 0px 30px;
+}
+/* top contents section style */
+/* top-player-style */
+.players {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+}
+.player {
+    display: flex;
+    column-gap: 10px;
+}
+
+.player img {
+    height: 56px;
+    width: 56px;
+}
+.player h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+/* top-blog-style */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 26px 20px;
+}
+.blog {
+    display: flex;
+    column-gap: 20px;
+}
+.blog-detail header h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    margin: 0;
+}
+.blog-thumbnail img {
+    width: 177px;
+    height: 117px;
+}
+span.author {
+    color: #562EFF;
 }
