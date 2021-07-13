@@ -1,56 +1,5 @@
-/* common css */
-body{
-    font-family:poppins;
-    margin: 0px;
-}
-section{
-    border-radius: 5px;
-    margin: 30px auto;
-    width: 870px;
-    background-color: white;
-}
-.container {
-    padding: 30px 30px;
-}
-h2.all-section-head {
-    color: #562EFF;
-    font-weight: 500;
-    font-size: 24px;
-    margin: 0;
-    padding-bottom: 30px;
-}
-main {
-    background-color: #F3F1FF;
-    overflow: hidden;
-}
-hr{
-    margin: 0px 30px;
-}
-/* header style */
-header{
-    background-color:#562EFF;
-}
-.nav-bar{
-    margin:0px auto;
-    width: 870px;
-}
-a#logo {
-    display: flex;
-    align-items: center;
-    column-gap: 15px;
-    text-decoration: none;
-}
-#logo img {
-    width: 40px;
-    height: 51px;
-}
-span#logo-text {
-    font-size: 24px;
-    font-weight: 500;
-    text-decoration: none;
-    color: white;
-}
-/* top contents section style */
+/* THIS STYLESHEET IS DEDICATED FOR MAIN CONTENT STYLE */
+
 /* top-player-style */
 .players {
     display: grid;

@@ -1,0 +1,29 @@
+/* THIS STYLESHEET IS DEDICATED FOR COMMON STYLE*/
+/* common css */
+body{
+    font-family:poppins;
+    margin: 0px;
+}
+section{
+    border-radius: 5px;
+    margin: 30px auto;
+    width: 870px;
+    background-color: white;
+}
+.container {
+    padding: 30px 30px;
+}
+h2.all-section-head {
+    color: #562EFF;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+main {
+    background-color: #F3F1FF;
+    overflow: hidden;
+}
+hr{
+    margin: 0px 30px;
+}
