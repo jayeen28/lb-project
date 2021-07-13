@@ -26,7 +26,7 @@
         column-gap:5px;
     }
     .blog-thumbnail img{
-        height:100px
+        height:100px;
         width:100px;
     } 
     .blog-detail header h3, .course h3{
@@ -46,7 +46,7 @@
        padding:4%;
     }   
     section{
-        width:100%
+        width:100%;
     }
     .blog{
         column-gap:10px;
