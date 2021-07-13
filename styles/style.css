@@ -6,6 +6,8 @@ body{
 section{
     border-radius: 5px;
     margin: 30px auto;
+    width: 870px;
+    background-color: white;
 }
 .container {
     padding: 30px 30px;
@@ -20,10 +22,6 @@ h2.all-section-head {
 main {
     background-color: #F3F1FF;
     overflow: hidden;
-}
-section.top-contents {
-    width: 870px;
-    background-color: white;
 }
 hr{
     margin: 0px 30px;
@@ -58,8 +56,8 @@ hr{
     display: flex;
     column-gap: 20px;
 }
-.blog-detail header h3 {
-    font-size: 20px;
+.blog-detail header h3,.course h3 {
+    font-size: 19px;
     font-weight: 500;
     line-height: 34px;
     margin: 0;
@@ -70,4 +68,54 @@ hr{
 }
 span.author {
     color: #562EFF;
+}
+
+/* latests courses section style */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.course {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: #00000014 0px 0px 8px;
+    border-radius: 10px;
+}
+.course img {
+    width: 100%;
+    height: auto;
+}
+.course h5 {
+    margin: 0;
+    color: #ED6B4F;
+    font-weight: 400;
+    font-size: 14px;
+}
+.c-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    align-items: center;
+}
+i.fas.fa-star {
+    font-size: 14px;
+}
+i.fas.fa-star.s-deactive {
+    color: #AEAEAE;
+}
+
+i.fas.fa-star.s-active {
+    color: #FFC014;
+}
+.c-time i {
+    margin-right: 2px;
+}
+
+.c-time {
+    color: #ED6B4F;
+    background-color: #ed6b4f1c;
+    padding: 4px 8px;
+    border-radius: 15px;
+    font-size: 14px;
+    font-weight: 400;
 }
