@@ -39,6 +39,22 @@
     .courses{
         grid-template-columns:repeat(1,1fr);
     }
+    .website-header{
+        padding: 10px 10px;
+    }
+    .nav-bar{
+        width:100%;
+    }
+    .right-nav{
+        display:none;
+    }
+    .toggle-button{
+        display:block;
+    }
+    .toggle-button img {
+        width: 40px;
+        height: 40px;
+    }
 }
 /* tablet responsive css */
 @media only screen and (min-width:689px) and (max-width:992px){
@@ -60,5 +76,21 @@
     }
     .courses{
         grid-template-columns:repeat(2,1fr);
+    }
+    .website-header{
+        padding: 20px 20px;
+    }
+    .nav-bar{
+        width:100%;
+    }
+    .right-nav{
+        display:none;
+    }
+    .toggle-button{
+        display:block;
+    }
+    .toggle-button img {
+        width: 40px;
+        height: 40px;
     }
 }
